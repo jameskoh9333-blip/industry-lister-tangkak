@@ -1,0 +1,27 @@
+{
+    "foodBusinesses": [
+        {"name": "XXX餐厅", "address": "美味路", "phone": "9998887", "mapsLink": "#"},
+        {"name": "XXX餐厅", "address": "美味路", "phone": "9998887", "mapsLink": "#"},
+        {"name": "XXX餐厅", "address": "美味路", "phone": "9998887", "mapsLink": "#"},
+        {"name": "XXX餐厅", "address": "美味路", "phone": "9998887", "mapsLink": "#"},
+        {"name": "XXX餐厅", "address": "美味路", "phone": "9998887", "mapsLink": "#"},
+        {"name": "YYY咖啡馆", "address": "休闲街", "phone": "1112223", "mapsLink": "#"}
+    ],
+    "hardwareBusinesses": [
+        {"name": "五金店A", "address": "XXX街", "phone": "1234567", "mapsLink": "#"},
+        {"name": "五金店B", "address": "YYY路", "phone": "7654321", "mapsLink": "#"}
+    ],
+    "emergencyBusinesses": [
+        {"name": "XX医院", "address": "紧急路A段", "phone": "911", "mapsLink": "#"},
+        {"name": "XX警察局", "address": "正义街", "phone": "999", "mapsLink": "#"}
+    ],
+    "policeBusinesses": [
+        {"name": "XX警察局", "address": "正义街", "phone": "999", "mapsLink": "#"}
+    ],
+    "fireBusinesses": [
+        {"name": "XX消防局", "address": "紧急路A段", "phone": "911", "mapsLink": "#"}
+    ],
+    "governmentBusinesses": [
+        {"name": "东甲国民登记局 (JPN)", "address": "Jalan Dataran 2", "phone": "069782527", "mapsLink": "#"}
+    ]
+}

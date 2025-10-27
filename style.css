@@ -1,0 +1,131 @@
+/* 这是 CSS 里的注释，方便自己看 */
+
+/* 1. 设置全局字体和间距 - 专业的 body 样式 */
+body {
+    /* ** 字体和颜色用法 ** */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: #333; 
+    
+    /* ** 盒模型用法：设置外边距 ** */
+    margin: 40px; 
+    background-color: #f8f8f8; 
+}
+
+/* 2. 突出网站主标题 h1 */
+h1 {
+    /* ** 颜色和字体用法 ** */
+    color: #1a4d8d; 
+    font-size: 32px; 
+
+    /* ** 盒模型用法：边框和内边距 ** */
+    border-bottom: 3px solid #ccc; 
+    padding-bottom: 10px; 
+    margin-bottom: 25px; 
+}
+
+/* 3. 让所有段落 p 更有可读性 */
+p {
+    line-height: 1.6; 
+    margin-bottom: 8px; 
+}
+
+/* 4. 分割线 hr 的美化 */
+hr {
+    border: 0; 
+    height: 1px; 
+    background-color: #ddd; 
+    margin: 40px 0; 
+}
+
+/* 5. 使用类选择器 .emergency-section 突出整个区域 */
+.emergency-section {
+    /* ** 盒模型用法：边框和内边距 ** */
+    border: 3px solid #c0392b; 
+    padding: 20px; 
+    background-color: #fdeaea; 
+}
+
+/* 6. 使用类选择器 .emergency 突出单个单位标题 */
+.emergency {
+    /* ** 颜色和字体用法 ** */
+    color: white; 
+    background-color: #e74c3c; 
+    
+    /* ** 盒模型用法：内边距和布局 ** */
+    padding: 8px 15px; 
+    border-radius: 5px; 
+    
+    /* ** 布局技巧：让背景只包住文字内容 ** */
+    display: inline-block; 
+    margin-top: 15px; 
+}
+
+/* 7. 新增：突出政府机构区域 */
+.government-section {
+    /* 使用稳重的蓝色边框 */
+    border: 3px solid #3498db; 
+    padding: 20px;
+    background-color: #ebf5fb; 
+    margin-top: 30px;
+}
+
+/* 8. 新增：突出单个政府机构标题 */
+.government {
+    /* 使用深蓝色标题背景 */
+    color: white; 
+    background-color: #34495e; 
+    padding: 8px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+/* 9. 商家列表美化 */
+.business-list {
+    /* ** 消除列表默认的小圆点 ** */
+    list-style-type: none; 
+    
+    /* ** 消除列表默认的内边距和外边距 ** */
+    padding-left: 0; 
+    margin-top: 15px;
+}
+
+/* 10. 列表项的样式 */
+.business-list li {
+    /* ** 添加下边框，分隔每个商家 ** */
+    border-bottom: 1px dashed #ddd; /* 使用虚线分隔 */
+    padding: 10px 0; /* 上下留出空间 */
+    margin-bottom: 5px; 
+}
+
+/* 11. 链接样式（让超链接看起来更舒服） */
+.business-list li a {
+    color: #007bff; /* 链接颜色使用明显的蓝色 */
+    text-decoration: none; /* 移除默认的下划线 */
+}
+
+/* 12. 鼠标悬停时的效果 */
+.business-list li a:hover {
+    text-decoration: underline; /* 鼠标悬停时显示下划线，提供视觉反馈 */
+    color: #0056b3; /* 悬停时颜色稍微变深 */
+}
+/* 13. 搜索框样式 */
+#search-container {
+    padding: 15px 0;
+    margin-bottom: 20px;
+}
+
+#search-input {
+    width: 100%; /* 宽度占满 */
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px; /* 圆角 */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: border-color 0.3s;
+}
+
+#search-input:focus {
+    border-color: #1a4d8d; /* 获得焦点时，边框颜色变深 */
+    outline: none;
+}

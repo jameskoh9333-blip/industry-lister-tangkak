@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>【地区名称】本地生活服务平台 - Industry Lister</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+    <link rel="stylesheet" href="style.css"> 
+    
+    </head>
+<body>
+    
+    <h1>【地区名称】本地生活服务平台</h1>
+    <p>便利民众，一眼即明，拉动地区消费的专属列表。</p>
+
+    <div id="search-container">
+        <input type="text" id="search-input" onkeyup="searchFilter(this.value)" placeholder="🔍 搜索商家名称...">
+    </div>
+    
+    <hr> 
+    
+    <h2>行业分类区</h2>
+    
+    <h3>1. 五金工业系列</h3>
+    <p>以下是一些五金店的介绍：</p>
+    <ul id="hardware-list" class="business-list"> 
+        </ul>
+    
+    <h3>4. 美食餐饮系列</h3>
+    <p>以下是一些美食餐饮的介绍：</p>
+    <ul id="food-list" class="business-list"> 
+        </ul>
+
+    <hr>
+    
+    <h2 class="emergency-section">紧急必须单位</h2>
+    
+    <h3 class="emergency">1. 医院、诊所 (支持医疗紧急)</h3>
+    <ul id="emergency-list" class="business-list"> 
+        </ul>
+
+    <h3 class="emergency">2. 警察局 (支持治安)</h3>
+    <ul id="police-list" class="business-list">
+         </ul>
+    
+    <h3 class="emergency">3. 消防局（支持救援队）</h3>
+    <ul id="fire-list" class="business-list">
+         </ul>
+
+    <hr>
+
+    <h2 class="government-section">政府机构</h2>
+
+    <h3 class="government">1.东甲国民登记局 (JPN)</h3>
+    <ul id="government-list" class="business-list">
+         </ul>
+    
+    <script src="script.js"></script>
+</body>
+</html>
